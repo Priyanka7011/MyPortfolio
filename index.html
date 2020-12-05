@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+   <header>
+   	   
+   	    <div  class="logo">PRiYANKA</div>
+   	    <div class="menuToggle" onclick="toggle()" id="bars">
+   	    	<i class="fa fa-bars"></i>
+   	    </div>
+		<ul class="menu">
+			<li><a href="#banner">Home</a></li>
+			<li><a href="#project">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+
+		</ul>
+	</header>
+
+    <section id="banner" class="banner">
+    	<div class="heading">
+    		<div class="main_info">
+    			<h1 class="main_heading">Hi!<br> I am <span>Priyanka,</span></br>Web Designer.</h1>
+    	        <p class="skills">HTML / CSS / REACT</p>
+    	        <!--<div class="contactBtn">
+    	        	 <button  class="btn"><a href="#contact" class="Btn">Contact</a></button>
+    	        </div>-->
+    	       
+    		</div>
+            <!--<div class="about">
+            	<h2>About Me</h2>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel viverra ligula, id egestas ex. Duis ultricies dui nec sem cursus, a efficitur mauris vehicula. </p>
+            </div>-->
+    	   
+
+    	</div>
+    	
+    	
+    </section>
+    <section class="projects" id="project">
+    	<h1 class="pro_title">Projects</h1>
+    	<div class="container">
+
+
+    		
+
+    		<div class="card">
+    			<div class="content">
+    				<div class="image_box">
+    					<img src="resized/pic1.png" class="images">
+    				</div>
+    				
+    				<div class="text">
+    					<p class="message">responsive webpage using bootstrap </p>
+    					<a href=" https://priyanka7011.github.io/Responsive_webpage/">click me</a>
+    					<br>
+    					<a href=" https://github.com/Priyanka7011/Responsive_webpage">github repository</a>
+    				</div>
+    				
+    			</div>
+    		</div>
+
+    		<div class="card">
+    			<div class="content">
+    				<div class="image_box">
+    					<img src="resized/pic2.png" class="images">
+    				</div>
+    				
+    				<div class="text">
+    					<p class="message">portfolio template using reactJs ,html and css</p>
+    					<a href="https://priyanka7011.github.io/react-portfolio/">click me</a>
+    					<br>
+    					<a href=" https://github.com/Priyanka7011/react-portfolio">github repository</a>
+    				</div>
+    				
+    			</div>
+    		</div>
+
+    		<div class="card">
+    			<div class="content">
+    				<div class="image_box">
+    					<img src="resized/pic3.png" class="images">
+    				</div>
+    				
+    				<div class="text">
+    					<p class="message">webpage for app promotion using js,html and css</p>
+    					<a href="https://priyanka7011.github.io/MusicApp-website/">click me</a>
+    					<br>
+    					<a href=" https://github.com/Priyanka7011/MusicApp-website">github repository</a>
+    				</div>
+    				
+    			</div>
+    		</div>
+
+    		<div class="card">
+    			<div class="content">
+    				<div class="image_box">
+    					<img src="resized/pic4.png" class="images">
+    				</div>
+    				
+    				<div class="text">
+    					<p class="message">a simple responsive timetable </p>
+    					<a href="https://priyanka7011.github.io/TimeTable/">click me</a>
+    					<br>
+    					<a href=" https://github.com/Priyanka7011/TimeTable">github repository</a>
+    				</div>
+    				
+    			</div>
+    		</div>
+
+    		<div class="card">
+    			<div class="content">
+    				<div class="image_box">
+    					<img src="resized/festival.png" class="images">
+    				</div>
+    				
+    				<div class="text">
+    					<p class="message">Web page on theme festival using html, css and javascript</p>
+    					<a href="https://priyanka7011.github.io/festival/">click me</a>
+    					<br>
+    					<a href=" https://github.com/Priyanka7011/festival">github repository</a>
+    				</div>
+    				
+    			</div>
+    		</div>
+
+    		<div class="card">
+    			<div class="content">
+    				<div class="image_box">
+    					<img src="resized/disaster.png" class="images">
+    				</div>
+    				
+    				<div class="text">
+    					<p class="message">Web page on theme disaster using html and css</p>
+    					<div><a class="click"  href="https://priyanka7011.github.io/Disaster-CARD/">click me</a></div>
+
+    					<div><a  class="git" href=" https://github.com/Priyanka7011/Disaster-CARD">github repository</a></div>
+    					
+    				</div>
+    				
+    			</div>
+    		</div>
+    	</div>
+
+    	 <section id="contact" class="contact">
+    	    <div class="contacts">
+    		<div class="contact_info">
+    			<p>Contact</p>
+    			<br>
+    			<p>pk3201134@gmail.com</p>
+    			<p>9307452347</p>
+    		</div>
+    		<div class="social">
+    			<p>Social Media</p>
+    			<img src="resized/facebook.png">
+    			<img src="resized/instagram@2x.png">
+    			<img src="resized/twitter.png">
+
+    		</div>
+    	</div>
+    </section>
+  </section>
+ 
+    <script type="text/javascript">
+    window.addEventListener('scroll', function(){
+      const header=document.querySelector('header');
+      header.classList.toggle("sticky",window.scrollY > 0);
+    });
+
+    function toggle(){
+    	const menuToggle=document.querySelector('.menuToggle');
+    	const menu=document.querySelector('.menu');
+    	menuToggle.classList.toggle("active");
+    	menu.classList.toggle("active");
+    }
+
+    
+  </script>
+</body>
+</html>
